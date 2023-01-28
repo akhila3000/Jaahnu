@@ -62,7 +62,7 @@ joblib==1.2.0
 jsonschema==4.17.3
 jupyter_core==5.1.1
 jupyterlab-pygments==0.2.2
-keras==2.9.0
+keras
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.2
 kiwisolver==1.4.4
@@ -134,7 +134,7 @@ tensorboard==2.8.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
 tensorflow
-tensorflow-estimator==2.9.0
+tensorflow-estimator
 tensorflow-gpu
 tensorflow-intel
 tensorflow-io-gcs-filesystem==0.29.0
