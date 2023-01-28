@@ -61,10 +61,10 @@ test_data=test_data[-a:]
 #st.dataframe(test_data)
 train_df,test_df=df[:-a],df[-a:]
 st.success('Success message')
-video_file = open('screen.mp4', 'rb')
-video_bytes = video_file.read()
+# video_file = open('screen.mp4', 'rb')
+# video_bytes = video_file.read()
 
-st.video(video_bytes)
+# st.video(video_bytes)
 train = train_df
 scalers={}
 for i in train_df.columns:
