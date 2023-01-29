@@ -149,7 +149,9 @@ distribution=sum(c[-24:])
 price_prediction=distribution*price
 hour=time*24
 #prediction=price_prediction*hour
-st.write('We are going to predict 24 samples. Since your sample size is {} in hours, and the cost of electricity(in USD) {} per {}, you would get a profit of {} USD  in {} hours if you employ solar power units to harvest energy.'.format(time,price,unit,price_prediction,hour))
+st.write("Annual energy costs can be in the thousands. The average annual energy expenditure per person is $3,052, including transportation and residential energy. Solar power can reduce or eliminate these costs as soon as they are installed. They also offer long-term savings, because it’s basically free to capture the power of the sun. Solar panels are a great way to offset energy costs and reduce the environmental impact. Traditional electricity is sourced from fossil fuels such as coal and natural gas. When fossil fuels are burned to produce electricity, they emit harmful gases that are the primary cause of air pollution and global climate change. Other than these impacts, they are finite resources and can cause fluctuations in energy prices.")
+st.write("Implementing solar panels and harvesting solar power is the best option to tackle this problem. The government provides about 30%  of the implementation cost as a subsidy to promote solar generation in the country. The solar panel is the superlative option for long-term runs and savings. The industry standard for most solar panel’s lifespans is 25 to 30 years. Most reputable manufacturers offer production warranties for 25 years or more. The owner can start earning from the first day.")
+st.write("On average, a one-meter square solar panel can harvest about 1000 watts of sunlight in a day. The price for 1000 {} is {} USD  According to the dataset provided, an amount of ${} can be generated in {} Hours, if {} sq.m solar panels are implemented. This exhibit that, the implementation cost can be fully covered in the initial 4 years. From the 5th year onwards, panels generate profits with very low maintenance costs.".format(unit,price,price_prediction,hour,tt))
 st.balloons()
 st.snow()
 st.balloons()
